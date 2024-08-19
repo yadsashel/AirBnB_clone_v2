@@ -18,7 +18,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # Optional: Handling other requests (you can remove or modify as needed)
+    # Optional: Handling other requests (we can remove or modify as needed)
     location / {
         return 404;
     }
